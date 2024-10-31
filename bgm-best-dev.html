@@ -1,0 +1,271 @@
+<!--==================================-->
+<!--==Website Made by Atharva Rasane==-->
+<!--==================================-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="confence,event,conference,company,meetup,business,agency,startup,sass,responsive,modern,speaker,multpage,onepage,it,business"
+    />
+
+    <meta name="author" content="Themefisher" />
+
+    <title>BELGAUM's BEST DEVELOPER - GOOGLE DEVELOPER GROUP BELGAUM</title>
+    <link rel="icon" type="image/x-icon" href="./images/icons/favicon.png">
+
+
+    <!-- Mobile Specific Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html" />
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Icon Css -->
+    <link rel="stylesheet" href="plugins/themefisher-font/style.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <!-- Magnify Popup -->
+    <link
+      rel="stylesheet"
+      href="plugins/magnific-popup/dist/magnific-popup.css"
+    />
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      href="plugins/slick-carousel/slick/slick-theme.css"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Custom Stylesheet -->
+    <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    </style>
+
+  </head>
+
+  <body id="body">
+    <!--  preloader start -->
+    <div id="tb-preloader">
+      <div class="tb-preloader-wave"></div>
+    </div>
+    <div id="loader" class="tb-preloader" style="
+    position: fixed;
+	  width: 100%;
+	  height: 100vh;
+    size: 40px;
+	  background: #ffffff url('./images/preloader/giphy.gif') no-repeat center;
+	  z-index: 999;
+    "></div>
+    <script>
+      var loader;
+
+      function loadNow(opacity) {
+          if (opacity <= 0) {
+              displayContent();
+          } else {
+              loader.style.opacity = opacity;
+              window.setTimeout(function() {
+                  loadNow(opacity - 0.1);
+              }, 10);
+          }
+          
+      }
+
+
+      function displayContent() {
+          loader.style.display = 'none';
+          document.getElementById('content').style.display = 'block';
+      }
+
+
+      document.addEventListener("DOMContentLoaded", function() {
+          loader = document.getElementById('loader');
+          window.setTimeout(function() {
+            loadNow(1);
+              }, 6000);
+            // }, 000);
+          // loader.parentNode.removeChild(loader);
+      });
+    </script>
+    <!-- preloader end -->
+
+    <!-- Navigation Start -->
+    <header class="header-bar">
+      <nav class="navbar navbar-expand-lg main-nav fixed-top" style="background-color: #000000;">
+        <div class="container">
+          <!--      LOGO BAR     -->
+          <a class="navbar-brand" href="index.html">
+            <img src="images/Logo[2].png" style="width: 150px;" alt="meetub" class="img-fluid logo-b"/>
+          </a>
+
+          <button id="collapsebtn"
+            style="color: white;"
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="tf-ion-android-menu"></span>
+          </button>
+
+          <!--  MAIN MENU  -->
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#home" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#what" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">WHAT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#why" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">WHY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#schedule" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">SCHEDULE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#speakers" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">SPEAKERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#sponsors" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">SPONSORS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#venu" target="_blank" rel="noopener noreferrer"  onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">VENUE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  target="_blank" rel="noopener noreferrer" href="team.html" onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"    style="color: white;">TEAM</a>
+              </li>
+            </ul>
+
+            <!-- <a
+              href="bgm-best-dev.html"
+              class="btn btn-secondary btn-rounded mt-3 mt-lg-0"
+              target="_blank" 
+              rel="noopener noreferrer"
+              onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}"
+              >COMPETE</a
+            > -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navigation End -->
+
+    <!-- Hero Section Start -->
+    <section
+    id="home"
+      class="section-banner d-flex align-items-center"
+      style="background-image: url(./images/banner/comming-soon.jpg);
+              padding-bottom: 80px;
+              padding-top: 40px;
+              "
+    >
+      <div class="container">
+        <div class="#">
+          <div style="">
+            <div class="banner-content">
+              <img src="images/icons/GDG BELGAUM Dark Horizontal-Logo.png" style="width: 250px;"></img><br>
+              <span style="color: white;"><b>DO YOU HAVE WHAT IT TAKES?</b></span>
+              <h1 class="mt-3 mb-5" style="color: white;">BELGAUM's BEST DEVELOPER</h1>
+              <a href="https://forms.gle/BZuME4qBq3nxpaCW6" target="_blank" rel="noopener noreferrer" class="btn btn-hero2 btn-rounded">REGISTER NOW</a><br><br>
+              <img src="images/icons/location.png" style="filter: invert(0%); width: 40px;"></img><a href="https://maps.app.goo.gl/ePsrX5NwzjGmSDiM6" target="_blank" rel="noopener noreferrer" style="color: white;"><b>KLS Gogte Institute of Technology,Belagavi</b><br></a>
+              <img src="images/icons/calendar.png" style="filter: invert(0%); width: 40px;"></img><a style="color: white;"><b>Wednesday, 27th November 2024</b><br></a>
+              <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+    <!-- Footer Section Start -->
+    <section class="footer section">
+      <div class="container">
+        <div class="row justify-content-center" style="padding-bottom: 30px;">
+          <div class="col-lg-6 text-center">
+            <img src="images/icons/GDG BELGAUM Dark Horizontal-Logo.png" style="width: 250px; padding-right: 20px;">
+            <img src="images/Logo[2].png"  style="width: 250px">
+          </div>
+        </div>
+
+        <div class="row justify-content-center"> 
+          <div class="col-lg-6 text-center">
+            <p class="mt-3 text-white-50">Disclaimer: GDG Belgaum is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit <a href="https://developers.google.com/community/gdg" style="color: var(--color1)" target="_blank" rel="noopener noreferrer">https://developers.google.com/community/gdg</a></p>
+            <p class="text-white-50">
+              By participating in any events planned and controlled by <a style="color: var(--color1);" href="https://gdg.community.dev/gdg-belgaum/" target="_blank" rel="noopener noreferrer">GDG BELGAUM</a>, you agree to the following <a href="https://developers.google.com/community-guidelines" style="color: var(--color1)" target="_blank" rel="noopener noreferrer">Community Guidelines</a>
+            </p>
+            <p class="mt-3 text-white-50">
+              Reach out to us at: <a href="mailto:"></a>
+            </p>
+
+            <ul class="list-inline footer-socails">
+              <li class="list-inline-item">
+                <a href="https://wa.me/+916366136498" target="_blank" rel="noopener noreferrer"><i class="tf-ion-social-whatsapp" ></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto:gdgbgm2022@gmail.com" target="_blank" rel="noopener noreferrer"><i class="tf-ion-android-mail" ></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/gdg_belgaum/" target="_blank" rel="noopener noreferrer"><i class="tf-ion-social-instagram" ></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/gdg-belgaum-chapter-0bb258255/" target="_blank" rel="noopener noreferrer"><i class="tf-ion-social-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 text-center mt-5">
+            <p class="copy border-top pt-4 text-white-50 mb-0">
+              Designed with ❤️ by Atharva Rasane <a style="color: var(--color1);" href="https://gdg.community.dev/gdg-belgaum/" target="_blank" rel="noopener noreferrer">GDG BELGAUM</a> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    <!-- Main jQuery -->
+
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3 -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!--  -->
+    <script src="plugins/SyoTimer/jquery.syotimer.min.js"></script>
+
+    <!-- Form Validator -->
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="plugins/easing/waypoint.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/magnific-popup/dist/jquery.magnific-popup.js"></script>
+
+    <!-- Google Map -->
+    <script src="plugins/google-map/gmap3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
