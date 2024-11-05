@@ -29,9 +29,9 @@
 // Count Down JS
 
  $('#simple-timer').syotimer({
-    year: 2022,
-    month: 12,
-    day: 10,
+    year: 2024,
+    month: 11,
+    day: 27,
     hour: 10,
     minute: 0,
 });

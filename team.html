@@ -60,7 +60,7 @@
         width: 100%;
         height: 100vh;
         size: 40px;
-        background: #ffffff url('./images/preloader/giphy.gif') no-repeat center;
+        background: #ffffff url('./images/preloader/FlipFlop.gif') no-repeat center;
         z-index: 999;
         "></div>
         <script>
@@ -102,7 +102,7 @@
         <div class="container">
           <!--      LOGO BAR     -->
           <a class="navbar-brand" href="index.html">
-            <img src="images/Logo[1].png" style="width: 150px;" alt="meetub" class="img-fluid logo-b"/>
+            <img src="images/icons/navbar_logo.png" style="width: 200px;" alt="meetub" class="img-fluid logo-b"/>
           </a>
 
           <button id="collapsebtn"
@@ -138,9 +138,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html#speakers" rel="noopener noreferrer" onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}">SPEAKERS</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="index.html#sponsors" rel="noopener noreferrer" onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}">SPONSORS</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="index.html#venu" rel="noopener noreferrer" onclick="let t = getElementById('collapsebtn'); if (t.getAttribute('aria-expanded') == 'true'){t.click()}">VENUE</a>
               </li>
@@ -229,63 +229,43 @@
           </div>
         </div>
 
+       
+
+
+
+
+        <!-- MODERATORS -->
+      
+        <!-- Members -->
+       
+      
         <!-- MODERATORS -->
         <div class="row section-heading">
           <div class="col-lg-6">
             <div class="heading">
               <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
               <div class="pl-90">
-                <h2 class="">ORGANIZER</h2>
+                <h2 class="">ORGANIZERS
+                </h2>
                 <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
               </div>
             </div>
           </div>
         </div>
+      
         <!-- Members -->
         <div class="row">
           <div class="col-lg-3  col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img src="images/Volunteers/sarvesh.png" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Team/sarvesh_kakkeri_SDOY8Vo.jpg" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
-                <img src="./images/badges/blue.png" style = "position: absolute;top: 0;left: 0;" class="img-fluid rounded-circle">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Sarvesh Kakkeri</a></h4>
-                <!-- <p>UI designer</p> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODERATORS -->
-        <div class="row section-heading">
-          <div class="col-lg-6">
-            <div class="heading">
-              <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
-              <div class="pl-90">
-                <h2 class="">STUDENT REPRESENTATIVES</h2>
-                <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Members -->
-        <div class="row">
-          <div class="col-lg-3  col-sm-6">
-            <div class="speaker-block style-2 mb-5">
-              <div class="img-block">
-                <img src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
-                position: relative;
-                  top: 0;
-                  left: 0;
-                ">
-                <img src="./images/badges/blue.png" style = "position: absolute;top: 0;left: 0;" class="img-fluid rounded-circle">
-              </div>
-              <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a> Sarvesh Kakkeri </a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
             </div>
@@ -293,15 +273,14 @@
           <div class="col-lg-3 col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Team/shivani_jadhav.jpeg" alt="" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
-                <img src="./images/badges/red.png" style = "position: absolute;top: 0;left: 0;" class="img-fluid rounded-circle">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a>Shivani Jadhav</a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
     
@@ -310,44 +289,46 @@
           <div class="col-lg-3 col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Team/Aishwarya.jpg" alt="" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
-                <img src="./images/badges/yellow.png" style = "position: absolute;top: 0;left: 0;" class="img-fluid rounded-circle">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a>Aishwarya Arvind Raikar </a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
+    
             </div>
           </div>
-          <div class="col-lg-3  col-sm-6">
+
+          <div class="col-lg-3 col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Team/anoop.jpg" alt="" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
-                <img src="./images/badges/green.png" style = "position: absolute;top: 0;left: 0;" class="img-fluid rounded-circle">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a>  Anoop S Betageri </a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
+    
             </div>
           </div>
-        </div>
 
-        <!-- DEVELOPER COMPETITION TEAM -->
+
+        
+        <!-- REGISTRATION TEAM -->
         <div class="row section-heading">
           <div class="col-lg-6">
             <div class="heading">
               <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
               <div class="pl-90">
-                <h2 class="">DEVELOPER COMPETITION</h2>
+                <h2 class="">REGISTRATION & RSVP</h2>
                 <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
               </div>
             </div>
@@ -358,61 +339,619 @@
           <div class="col-lg-3  col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img onload="badge713(this)" src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Team/RT/Shreedhar.jpeg" alt="" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a>Shreedhar teradal</a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/RT/Chandan Kangralkar.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Chandan Kangralkar</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/RT/Varsha V.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Varsha V</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2  mb-5 mb-lg-0">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/RT/Shashank G T.jpeg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Shashank G T</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Volunteers/Varsha-Kannur.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+             
+                <h2 class="">EVENTS AREA</h2>
+                <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Members -->
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Vinod T Naik .jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Vinod T Naik</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Siddita Varma.JPG" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Siddita Varma</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+    
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Neha Patil.JPG" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Neha Patil</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2  mb-5 mb-lg-0">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Omkar Pote.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Omkar Pote</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Srushti Katti.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Srushti Katti</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Shrutika Pachkatte.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a> Shrutika Pachkatte</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Ramesh Angadi.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Ramesh Angadi </a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ET/Rakshit Jodatti.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Rakshit Jodatti </a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+
+        <!-- MEDIA AND MARKETTING -->
+        <div class="row section-heading">
+          <div class="col-lg-6">
+            <div class="heading">
+              <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
+              <div class="pl-90">
+                <h2 class="">MEDIA AND MARKETING</h2>
+                <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Members -->
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/MT/Siddarth Jambagi.jpeg"" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Siddarth Jambagi</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/MT/SourabhNilajkar.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <br><br>
+                <h4 class="mb-0 mt-3"><a>Sourabh Nilajkar</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/MT/IOmkar Sindagi.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Omkar Sindagi</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2  mb-5 mb-lg-0">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/MT/Nayan S.jpeg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Nayan S</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/MT/Shrikrishna Shinde.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Shrikrishna Shinde</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Volunteers/Samarth.jpeg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a></a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+    
             </div>
           </div>
           <div class="col-lg-3  col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img onload="badge713(this)" src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Volunteers/Siddharth-N-H.jpeg" alt="" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a></a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
             </div>
           </div>
-          <div class="col-lg-3  col-sm-6">
-            <div class="speaker-block style-2 mb-5">
+    
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2  mb-5 mb-lg-0">
               <div class="img-block">
-                <img onload="badge713(this)" src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Volunteers/Samarth-Hishobkar .jpg" alt="" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a></a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
             </div>
           </div>
+        </div>
+
+
+
+        <!-- DECORATION AND FACILITIES -->
+        <div class="row section-heading">
+          <div class="col-lg-6">
+            <div class="heading">
+              <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
+              <div class="pl-90">
+                <h2 class="">Event Ambassadors </h2>
+                <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Members -->
+        <div class="row">
           <div class="col-lg-3  col-sm-6">
             <div class="speaker-block style-2 mb-5">
               <div class="img-block">
-                <img onload="badge713(this)" src="images/Volunteers/Atharva-Rasane.jpeg" alt="" class="img-fluid rounded-circle" style="
+                <img onload="badge713(this)" src="images/Team/EA/Akash JANAKATI.jpeg" class="img-fluid rounded-circle" style="
                 position: relative;
                   top: 0;
                   left: 0;
                 ">
               </div>
               <div class="speaker-info text-center">
-                <h4 class="mb-0 mt-3"><a>Atharva Rasane</a></h4>
+                <h4 class="mb-0 mt-3"><a>Akash JANAKATI </a></h4>
                 <!-- <p>UI designer</p> -->
               </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/EA/ABHISHEK.png" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>ABHISHEK</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+    
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/EA/Sona Naik.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Sona Naik </a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+    
+            </div>
+          </div>
+          
+      
+        <div class="row section-heading">
+          <div class="col-lg-6">
+            <div class="heading">
+              <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
+              <div class="pl-90">
+        <h2 class="">TECH TEAM </h2>
+        <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Members -->
+<div class="row">
+  <div class="col-lg-3  col-sm-6">
+    <div class="speaker-block style-2 mb-5">
+      <div class="img-block">
+        <img onload="badge713(this)" src="images/Team/TT/Jay Sancheti.png" class="img-fluid rounded-circle" style="
+        position: relative;
+          top: 0;
+          left: 0;
+        ">
+      </div>
+      <div class="speaker-info text-center">
+        <h4 class="mb-0 mt-3"><a>Jay Sancheti </a></h4>
+        <!-- <p>UI designer</p> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-sm-6">
+    <div class="speaker-block style-2 mb-5">
+      <div class="img-block">
+        <img onload="badge713(this)" src="images/Team/TT/Snehal Suryavanshi.png" alt="" class="img-fluid rounded-circle" style="
+        position: relative;
+          top: 0;
+          left: 0;
+        ">
+      </div>
+      <div class="speaker-info text-center">
+        <h4 class="mb-0 mt-3"><a>Snehal Suryavanshi</a></h4>
+        <!-- <p>UI designer</p> -->
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-sm-6">
+    <div class="speaker-block style-2 mb-5">
+      <div class="img-block">
+        <img onload="badge713(this)" src="images/Team/TT/Harsha Rampur .jpg" alt="" class="img-fluid rounded-circle" style="
+        position: relative;
+          top: 0;
+          left: 0;
+        ">
+      </div>
+      <div class="speaker-info text-center">
+        <h4 class="mb-0 mt-3"><a>Harsha Rampur </a></h4>
+        <!-- <p>UI designer</p> -->
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-sm-6">
+    <div class="speaker-block style-2 mb-5">
+      <div class="img-block">
+        <img onload="badge713(this)" src="images/Team/TT/Shreyansh Turmandi.jpg" class="img-fluid rounded-circle" style="
+        position: relative;
+          top: 0;
+          left: 0;
+        ">
+      </div>
+      <div class="speaker-info text-center">
+        <h4 class="mb-0 mt-3"><a>Shreyansh Turmandi</a></h4>
+        <!-- <p>UI designer</p> -->
+      </div>
+
+    </div>
+  </div>
+  
+  
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SPEAKERS TEAM -->
+        <div class="row section-heading">
+          <div class="col-lg-6">
+            <div class="heading">
+              <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
+              <div class="pl-90">
+                <h2 class="">OPERATION TEAM </h2>
+                <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Members -->
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/OT/Swastik Hegde.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Swastik Hegde</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/OT/rohit Katamble.jpeg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>rohit Katamble</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+    
+         -->
+
+        <!-- FOOD AND DRINKS -->
+        <div class="row section-heading">
+          <div class="col-lg-6">
+            <div class="heading">
+              <!-- <span class="stroke-text" style="-webkit-text-stroke-color: var(--color2)">TEAM</span> -->
+              <div class="pl-90">
+                <h2 class="">SPONSORSHIP TEAM</h2>
+                <!-- <p>DREAMS AND TEAMS WORK TOGETHER</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Members -->
+        <div class="row">
+          <div class="col-lg-3  col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ST/IMGPraneet Kawaldar.jpg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Praneet Kawaldar</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="speaker-block style-2 mb-5">
+              <div class="img-block">
+                <img onload="badge713(this)" src="images/Team/ST/Shalem Raj P.jpeg" alt="" class="img-fluid rounded-circle" style="
+                position: relative;
+                  top: 0;
+                  left: 0;
+                ">
+              </div>
+              <div class="speaker-info text-center">
+                <h4 class="mb-0 mt-3"><a>Shalem Raj</a></h4>
+                <!-- <p>UI designer</p> -->
+              </div>
+    
             </div>
           </div>
         </div>
@@ -426,7 +965,7 @@
         <div class="row justify-content-center" style="padding-bottom: 30px;">
           <div class="col-lg-6 text-center">
             <img src="images/icons/GDG BELGAUM Dark Horizontal-Logo.png" style="width: 250px; padding-right: 20px;">
-            <img src="images/Logo[2].png"  style="width: 250px">
+            <img src="images/icons/devfest2.png"  style="width: 250px ; padding-bottom: 10px;">
           </div>
         </div>
 
@@ -451,7 +990,7 @@
                 <a href="https://www.instagram.com/gdg_belgaum/" target="_blank" rel="noopener noreferrer"><i class="tf-ion-social-instagram" ></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/gdg-belgaum-chapter-0bb258255/" target="_blank" rel="noopener noreferrer"><i class="tf-ion-social-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/gdg-belgaum/" target="_blank" rel="noopener noreferrer"><i class="tf-ion-social-linkedin"></i></a>
               </li>
             </ul>
           </div>
@@ -460,11 +999,22 @@
         <div class="row">
           <div class="col-lg-12 text-center mt-5">
             <p class="copy border-top pt-4 text-white-50 mb-0">
-              Designed with ❤️ by Atharva Rasane <a style="color: var(--color1);" href="https://gdg.community.dev/gdg-belgaum/" target="_blank" rel="noopener noreferrer">GDG BELGAUM</a> 
+              Designed with ❤️ by team <a style="color: var(--color1);" href="https://gdg.community.dev/gdg-belgaum/" target="_blank" rel="noopener noreferrer">GDG BELGAUM</a> 
             </p>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
     </section>
     <!-- Footer Section End -->
 
